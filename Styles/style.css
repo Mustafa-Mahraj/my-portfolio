@@ -139,9 +139,90 @@ main{
     font-weight: 700;
 }
 .section-description{
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 400;
     color: rgb(117, 117, 117);
     margin-top: 20px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+    padding: 5px 40px;
+}
+.experience-description{
+    color: rgb(117, 117, 117);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.experience-title{
+    color: rgb(71, 71, 71);
+font-family: 'Open Sans';
+font-size: 22px;
+font-weight: 700;
+margin-top: 15px ;
+}
+.experience-sub-title{
+    color: rgb(117, 117, 117);
+font-family: 'Open Sans';
+font-size: 18px;
+font-weight: 600;
+margin-top: 10px;
+}
+.resume-colum-title{
+    color: rgb(71, 71, 71);
+font-family: 'Open Sans';
+font-size: 30px;
+font-weight: 700;
+}
+.resume-title{
+    color: rgb(24, 24, 24);
+font-family: 'Open Sans';
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+margin-top: 120px;
+padding-top: 40px;
+}
+.resume-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.resume{
+    box-shadow: 0 3px 20px 0 rgba(66, 66, 66, 0.575);
+}
+footer{
+    background-color: rgb(255, 248, 243);
+    padding: 10px 150px 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    margin-top: 40px;
+}
+.footer-colum{
+    width: 50%;
+}
+.footer-description{
+    color: rgb(71, 71, 71);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    border-radius: 5px;
+    height: 44px;
+    color: rgb(92, 92, 92);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    width: 70%;
+    display: block;
+    padding: 8px 0px 8px 15px;
+    margin-bottom: 20px;
+    border: none;
 }
